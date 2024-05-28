@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url(hillStation.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dClock{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    background-color: rgba(86, 140, 45, 0.126);
+}

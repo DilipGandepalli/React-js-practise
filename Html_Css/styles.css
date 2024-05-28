@@ -1,0 +1,82 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+}
+.table1{
+    background-color: red;
+}
+#table2{
+    background-color: rgb(230,130,130)
+}
+.para{
+    border-style: double;
+    border-width: 2px;
+    border-color: blueviolet;
+    border-bottom-color: red;
+    border-right: 3px dotted green;
+}
+#parcelstyle:hover{
+    color: brown;
+}
+
+#parcelstyle:active{
+    color: chartreuse;
+}
+
+#navBarHead{
+    text-align: center;
+}
+.navBar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+
+.navBar li{
+    float: left;
+}
+
+.navBar a:hover{
+    background-color: rgb(86, 99, 95);
+}
+
+header{
+    background-color: rgb(218, 224, 229);
+    color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+}
+
+section{
+    width: 40%;
+    float: left;
+}
+
+
+article{
+    width: 40%;
+    float: left;
+}
+
+@media screen and (max-width:600px) {
+    aside,section,article{
+        width: 100%;
+    }
+}
+
+

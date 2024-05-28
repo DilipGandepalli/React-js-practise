@@ -1,0 +1,25 @@
+.heading1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.counterValue{
+    text-align: center;
+    font-size: 5em;
+}
+
+#button_container{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttonstyle{
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    margin:5px;
+    font-size: 1em
+}
+
